@@ -22,5 +22,15 @@
       <JFXButton fx:id="btnMultiplicar" layoutX="242.0" layoutY="116.0" onAction="#multiplicacao" prefHeight="58.0" prefWidth="54.0" text="*" />
       <JFXButton fx:id="btnDividir" layoutX="324.0" layoutY="116.0" onAction="#divisao" prefHeight="58.0" prefWidth="54.0" text="/" />
       <JFXButton fx:id="btnLimpar" layoutX="244.0" layoutY="213.0" onAction="#limpar" prefHeight="58.0" prefWidth="135.0" text="CC" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="439.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cadastros">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#abrirCadastroAluno" text="Alunos" />
+                  <MenuItem mnemonicParsing="false" onAction="#fecharProjeto" text="Fechar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
     </children>
 </AnchorPane>
